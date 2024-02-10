@@ -12,13 +12,10 @@ Cool-IP-Scanner is a Python-based tool designed for scanning multiple ports with
 
 ## Getting Started
 
-### Prerequisites
-
-- Python 3.x
-- Install required dependencies using: `pip install -r requirements.txt`
-
 ### Usage
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/nahid0x1/Cool-IP-Scanner.git
+   cd Cool-IP-Scanner
+   python3 scan.py
