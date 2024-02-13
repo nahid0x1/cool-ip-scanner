@@ -42,12 +42,18 @@ def main():
 ⠁⠄⠄⠄⠈⠉⠛⢿⡟⠉⠉⣿⣷⣀⠄⠄⣿⡆⠄⠄⢠⣿
 ⠄⠄⠄⠄⠄⠄⢠⡿⠿⢿⣷⣿⣿⣿⣿⣿⠿⠃⠄⠄⣸⣿
 ⠄⠄⠄⠄⠄⢀⡞⠄⠄⠄⠈⣿⣿⣿⡟⠁⠄⠄⠄⠄⣿⣿
-⠄⠄⠄⠄⠄⢸⠄⠄⠄⠄⢀⣿⣿⡟⠄⠄⠄⠄⠄⢠⣿⣿ BY Nahid0x1
+⠄⠄⠄⠄⠄⢸⠄⠄⠄⠄⢀⣿⣿⡟⠄⠄⠄⠄⠄⢠⣿⣿ By Nahid0x1
 ⠄⠄⠄⠄⠄⠘⠄⠄⠄⢀⡼⠛⠉⠄⠄⠄⠄⠄⠄⣼⣿⣿
 ⠄⠄⠄⠄⠄⡇⠄⠄⢀⠎⠄⠄⠄⠄COOL.⠙⢿⣿
 ⠄⠄⠄⠄⢰⠃⠄⢀⠎⠄⠄IP Scanner⠙
 """
     print(banner)
+    print("80 - HTTP      443 - HTTPS")
+    print("21 - FTP       22 - SSH")
+    print("554 - RSTS     3389 - RDP")
+    print("139 - NetBIOS  445 - Microsoft-DS")
+    print("\n80,443,21,22,554,3389,139,445")
+    print("")
     ip_range = input("IP Range~# ")
     port_input = input("Ports~# ")
     num_threads = int(input("Thread~# "))
